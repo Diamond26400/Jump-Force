@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
 
-    public void OnCollisionEnter()
+    public void OnCollisionEnter(Collision collision)
     {
         
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
